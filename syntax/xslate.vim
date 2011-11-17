@@ -1,4 +1,6 @@
 runtime! syntax/html.vim
+"support html5 syntax
+runtime! syntax/html/html5.vim
 unlet b:current_syntax
 
 syntax keyword txKeyword cascade around block override macro contained
